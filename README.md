@@ -49,9 +49,13 @@ Sorting & Searching Algorithms.
 This repository is useful for:
 
 👨‍🎓  learning C++
+
 💻 Coding interview preparation
+
 🧠 Improving problem-solving skills
+
 📖 Quick revision before exams
+
 🤝 Contributing
 
 Contributions are welcome! Feel free to fork this repository and submit a pull request with improvements or additional C++ programs.
@@ -60,7 +64,9 @@ Contributions are welcome! Feel free to fork this repository and submit a pull r
 
 Avinash Verma
 🎓 R.R. Group of Institutions
+
 📌 Lucknow, India
+
 📧 avinashverma3939@gmail.com
 
 Feel free to connect or raise an issue for any suggestions or questions.
@@ -69,5 +75,7 @@ The goal of this repository is to provide a structured and easy-to-understand re
 
 🛠️ Technologies Used
 Language: C++
+
 Compiler: g++, MinGW, or any standard C++ compiler
+
 IDE : VS Code 
