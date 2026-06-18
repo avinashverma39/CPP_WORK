@@ -29,8 +29,8 @@ int main()
     cout << "Sum of 10 and 20 is: " << sum_1 << endl; //print the sum 1
     cout << "Sum of 10, 20 and 30 is: " << sum_2 << endl; //print sum 2
 
-    add(10, 20); //
-    add(10, 20, 30);//
+    add(10, 20); 
+    add(10, 20, 30);
 
     return 0;
 }
