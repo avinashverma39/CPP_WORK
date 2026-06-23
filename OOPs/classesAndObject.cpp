@@ -29,9 +29,9 @@ public:
 
 void Employee::setData(int a, int b, int c)
 {
-    a = salary;
-    b = age;
-    c = experience;
+    salary = a;
+    age = b;
+    experience = c;
 }
 int main()
 {
@@ -39,9 +39,8 @@ int main()
 
     Employee Avinash;
     Avinash.name = "Avinash Verma";
-    Avinash.workTime = 12;
-    Avinash.setData(6890, 25, 3);
+    Avinash.workTime = 10;
+    Avinash.setData(9200, 24, 1);
     Avinash.getData();
-
     return 0;
 }
