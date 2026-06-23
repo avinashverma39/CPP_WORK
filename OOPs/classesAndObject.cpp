@@ -19,9 +19,8 @@ public:
     void getData()
     {
         cout << "Name: " << name << endl;
-        cout << "Working Time: " << workTime << endl; 
+        cout << "Working Time: " << workTime << endl;
 
-        
         cout << "Salary: " << salary << endl;         // private data members can't be accessed outside the class
         cout << "Age: " << age << endl;               // private data members can't be accessed outside the class
         cout << "Experience: " << experience << endl; // private data members can't be accessed outside the class
@@ -37,6 +36,12 @@ void Employee::setData(int a, int b, int c)
 int main()
 {
     system("cls");
+
+    Employee Avinash;
+    Avinash.name = "Avinash Verma";
+    Avinash.workTime = 12;
+    Avinash.setData(6890, 25, 3);
+    Avinash.getData();
 
     return 0;
 }
