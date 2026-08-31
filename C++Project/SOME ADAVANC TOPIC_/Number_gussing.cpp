@@ -34,7 +34,7 @@ int main()
         }
         else if (guess < number)
         {
-            cout << "Too Low! Try Again." << endl;
+            cout << "Too Low! Try Again." << endl; 
         }
         else
         {
