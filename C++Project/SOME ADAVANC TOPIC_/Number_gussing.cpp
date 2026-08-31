@@ -22,7 +22,7 @@ int main()
     srand(time(0));
     number = rand() % 100 + 1;
     cout << "Welcome To the number Guessing Game " << endl;
-    cout << "Guess a number between 1 to 100" << endl;
+    cout << "Guess a number between 1 to 100"  << endl;
     do
     {
         cout << "Enter Your Guess : ";
@@ -34,11 +34,11 @@ int main()
         }
         else if (guess < number)
         {
-            cout << "Too Low! Try Again." << endl; 
+            cout << "Too Low! Try Again."  << endl; 
         }
         else
         {
-            cout << "Congratulations! You Guessed The Number In " << attemps << " Attemps" << endl;
+            cout << "Congratulations! You Guessed The Number In  " << attemps << " Attemps" << endl;
         }
 
     } while (guess != number);
