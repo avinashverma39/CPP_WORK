@@ -8,6 +8,7 @@ typedef struct worker
     char favChar; // 1
     float salary; // 4
 } wr;
+
 union money
 {
     int rice;     // 1
