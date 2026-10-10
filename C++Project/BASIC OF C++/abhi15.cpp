@@ -5,13 +5,13 @@ using namespace std;
 
 // int sum(int a, int b);--------> Acceptable
 // int sum(int a, b);-----------> Not Acceptable
-int sum(int, int);
+int sum(int, int ,double);
 
 int main()
 {
 
 
-    int num1, num2,num3;
+    float num1, num2,num3;
     cout << "Enter the first number : ";
     cin >> num1;
     cout << "Enter the second number : ";
@@ -19,7 +19,7 @@ int main()
     cout<<"Enter the third number : ";
     cin>>num3;
     // num1 and num2 are actual parameters------->
-    cout << "The sum is " << sum(num1, num2);
+    cout << "The sum is " << sum(num1, num2, num3);
     
     
     return 0;
@@ -27,7 +27,7 @@ int main()
 int sum(int a, int b , double c)
 {
     // a and b will be taking values from actual parameters num1 and num2----->>
-    int d = a + b +c;
+    double d = a + b +c;
     return d;
 }
 
