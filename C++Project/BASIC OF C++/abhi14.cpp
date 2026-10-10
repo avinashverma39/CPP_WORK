@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
 typedef struct worker
 {
     int eId;      // 4
